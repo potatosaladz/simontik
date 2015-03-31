@@ -10,8 +10,10 @@ class Bmn_model extends CI_Model{
 
     public function getBmn() {
 
-        $this->db->select("*");
+        $this->db->select("tdata_bmn_now.*,tref_kondisi.*,tref_kat_brg.*");
         $this->db->from("tdata_bmn_now");
+        $this->db->join('tref_kondisi','tdata_bmn_now.kondisi_akhir=tref_kondisi.kd_kondisi');
+         $this->db->join('tref_kat_brg','tdata_bmn_now.kd_kat_brg=tref_kat_brg.kd_kat_brg');
         //$this->db->where($array);
         //$this->db->order_by("date_created", "desc"); 
          $this->db->limit(25);

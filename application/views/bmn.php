@@ -6,6 +6,7 @@
         <ol class="breadcrumb pull-left">
             <li><a href="#">BMN</a></li>
             <li><a href="#">Daftar BMN</a></li>
+            
         </ol>
 <!--         <div id="social" class="pull-right">
             <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -56,7 +57,10 @@
         <thead>
             <tr>
                 <th>Kode BMN</th>
+                <th>Kategori</th>
                 <th>Merk Type Awal</th>
+                <th>Tahun Perolehan Awal</th>
+                <th>Kondisi</th>
             </tr>
         </thead>
         <tbody>
@@ -69,7 +73,10 @@
                                 
                                 echo "<tr>";
                                 echo "<td>".$row['id_bmn']."-".$row['kd_brg']."-".$row['no_aset']."</td>";
+                                echo "<td>".$row['ur_short_kat_brg']."</td>";
                                 echo "<td>".$row['merktype_awal']."</td>";
+                                echo "<td>".date('Y',strtotime($row['tgl_perlh_awal']))."</td>";
+                                echo "<td>".$row['ur_kondisi']."</td>";
                                 echo "</tr>";
                             }
                         }else{
