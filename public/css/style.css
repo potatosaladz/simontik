@@ -1,0 +1,433 @@
+body
+{
+    background:#d6e3eb ;
+    color:#111111;
+
+}
+
+div {line-height: 1;}
+
+#wrap
+{   
+    width:900px;
+    margin: auto;
+    z-index: 1;
+
+}
+
+#header
+{
+    width:800px;
+
+    float:left;
+    background: url(../img/bg.gif) repeat-x;
+    height:100px;
+    border:0px solid #CCCCCC;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-box-shadow: 5px 0px 10px #c4cbd7;
+    -webkit-box-shadow: 5px 0px 10px #c4cbd7;
+    box-shadow: 5px 0px 10px #c4cbd7;
+}
+
+#text_logo
+{
+    margin-top: 20px;
+    margin-left:130px;
+    color: black;
+    text-shadow:1px 1px 1px #FFFFFF;
+}
+
+#text_logo h3
+{
+    padding:0;
+    margin:0;
+    font-size:16px;
+    margin-left:7px;
+    color:black;
+
+}
+
+#text_logo h2
+{
+    padding:0;
+    margin:0;
+    font-size:18px;
+    margin-left:7px;
+    color:black;
+
+}
+
+#text_logo h1
+{
+    padding:0;
+    margin:0;
+    margin-left:7px;
+    font-size:20px;
+
+}
+#logo
+{
+    margin-left:5px;
+    margin-top:-3px;
+    float:left;
+    font-size:17px;
+    font-weight:bold;
+    color:#111111;
+    padding-top:5px;
+    border:0px solid #CCCCCC;
+}
+
+a img
+{
+    border:0 none;
+}
+
+/* Main */
+
+#main
+{
+    width:800px;
+    background:#f9f9f2;
+    float:left;
+    margin-bottom:10px;
+    margin-top:50px;
+    z-index: 2;
+    border:0px solid #7e7e7e;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+
+    -moz-box-shadow: 0px 5px 10px #c4cbd7;
+    -webkit-box-shadow: 0px 5px 10px #c4cbd7;
+    box-shadow: 0px 5px 10px #c4cbd7;
+}
+
+.pad
+{
+    padding:10px;
+    width: 160px;
+    height: 290px;
+    margin-top: 15px;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.pad img {
+    margin-top: 45px;
+    margin-left: 8px;
+}
+
+
+/* Start of Column CSS */
+#container2 {
+    clear:left;
+    float:left;
+    width:810px;
+    z-index: 3;
+    overflow:hidden;
+    border:0px solid #FF0000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#container1 {
+    float:left;
+    width:800px;
+    position:relative;
+    left:300px;
+    z-index: 4;
+    background-position:left;
+    border-left:0px solid #333333;
+
+    border:0px solid #0000FF;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+#col1 {
+    float:left;
+    width:200px;
+    position:relative;
+    right:280px;
+    overflow:hidden;
+    border:0px solid #FF0000;
+    min-height:240px;
+
+    border-right:0px solid #dac1b1;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+
+}
+#col2 {
+    float:right;
+    width:550px;
+    position:relative;
+    top:15px;
+    right:330px;
+    z-index: 5;
+    background:#f9f9f2 repeat-x;
+    overflow:hidden;
+    height:345px;
+    border:0px solid #FF0000;
+    border-left:0px solid #dac1b1;
+    /*border-left:0px solid #7e7e7e;*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#col3
+{
+    width: 495px;
+    z-index: 90;
+    height: 190px;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+#col5
+{
+    width: 810px;
+    z-index: 90;
+    height: 250px;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+#col3 form {
+    margin-top: 40px;
+}
+
+#col5 form {
+    margin-top: 20px;
+}
+
+#col3 td
+{
+    padding-bottom:5px;
+}
+#col3 input[type=text] , #col3 input[type=password]
+{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+
+    /* Size and position */
+    width: 100%;
+    padding: 5px 5px 5px 15px;
+
+    /* Styles */
+    border: none; /* Remove the default border */
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #1171f1;
+    color: #311;
+    transition: color 0.3s ease-out;
+}
+
+/*#col5 input[type=text] , #col5 input[type=password]{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+
+    
+    width: 40%;
+    padding: 5px 5px 5px 15px;
+
+   
+    border: none; 
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #1171f1;
+    color: #311;
+    transition: color 0.3s ease-out;
+}*/
+
+#col3 input[type=text]:focus, #col3  input[type=password]:focus
+{
+    background: #9fe9ec;
+    color: #211848;
+
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+}
+
+#col3 input[type=submit], #col3 input[type=reset]
+{
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+
+    background: #1171f1;
+    border: 1px solid #46b3d3;
+    border-radius: 5px;
+    cursor: pointer;
+
+    box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    cursor: pointer;
+
+
+}
+
+#col3 input[type=submit]:hover, #col3 input[type=reset]:hover, #btn_daftar:hover{
+    background: #3f9db8;
+    border: 1px solid rgba(256,256,256,0.75);
+
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+#col3 input[type=submit]:focus, #col3 input[type=reset]:focus,#btn_daftar:focus{
+
+    bottom: -1px;
+
+    background: #54c2e1;
+
+    box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+#col3 label {
+    float: left; 
+    margin: 5px 20px 0 0; 
+    width: 75px;
+    text-align: right; 
+    font-size: 14px; 
+    color: #000000;
+    font-weight:bold;
+    text-transform: uppercase; 
+}
+
+
+#col5 label {
+    float: left; 
+    margin: 5px 5px 0 0; 
+    width: 180px;
+    text-align: right; 
+    font-size: 14px; 
+    color: #000000;
+    font-weight:bold;
+    text-transform: uppercase; 
+}
+#error{
+    z-index: 999;
+    position: relative;
+    font-size: 14px;
+}
+
+#form_login
+{
+    width:450px;
+    z-index: 9;
+    height: 295px;
+    margin-left: 25px;
+    margin-top: 15px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    position:relative;
+
+}
+
+#btn_daftar {
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+
+    background: #1171f1;
+    border: 1px solid #46b3d3;
+    border-radius: 5px;
+    cursor: pointer;
+
+    box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    cursor: pointer;
+}
+
+
+
+
+
+#pre_sirekan
+{
+    width: 495px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+#footer
+{
+    width:800px;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    color:#666666;
+    text-align:center;
+
+}
+ fieldset { padding:0; border:0; margin-top:25px; }
+
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 100px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+.ui-dialog .ui-dialog-content.ui-dialog-spinner{
+    background: url("../img/loader.gif") no-repeat scroll 5px 15px transparent;
+    padding: 30px 0 0px 70px;
+    border: 2px solid #DDDDDD;
+    font-weight: 900;
+    line-height: 1em;
+    font-size: 1.1em;
+    color: #737373;
+}
